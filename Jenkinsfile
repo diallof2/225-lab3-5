@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/diallof2'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/diallof2/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('diallof2-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('diallof2-225')                                                         //<------change this
     }
 
     stages {
